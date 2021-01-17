@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-image: url("dots.jpg"); */
+    /* background-color: lightslategray; */
+}
+
+.jumbotron {
+    background-color: #999999;
+    text-align: center;
+    height: 550px;
+    padding: 50px;
+    background-image: url("img/dots.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-size: larger;
+    color: white;
+    margin-top: 90px;
+}
+
+.button2 {
+    /* margin-top: 15px; */
+    /* text-decoration:none; */
+    border: 2px solid rgb(226, 29, 95);
+    color: rgb(226, 29, 95);
+    background-color: transparent;
+    /* width: 200px; */
+    padding: 5px;
+    font-size: 20px;
+    margin: px;
+}
+
+.button {
+    margin-top: 15px;
+    /* text-decoration:none; */
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    width: 200px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button:active {
+    border-style: outset;
+}
+
+h2 {
+    text-align: center;
+    margin: 60px;
+    font-size: 35px;
+}
+
+.name {
+    color: rgb(226, 29, 95)
+}
+
+#script {
+    margin-bottom: 0;
+    padding: 5px;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+}
+
+.img {
+    border-radius: 8px;
+}
+
+.w3-border {
+    border-radius: 10px;
+}
+
+.w3-green {
+    border-radius: 10px;
+}
